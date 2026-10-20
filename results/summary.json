@@ -1,0 +1,50 @@
+{
+  "observations": 150,
+  "per_species": {
+    "Iris-setosa": 50,
+    "Iris-versicolor": 50,
+    "Iris-virginica": 50
+  },
+  "missing_cells": 0,
+  "duplicate_rows": 3,
+  "petal_length_ranges": {
+    "Iris-setosa": {
+      "min": 1.0,
+      "max": 1.9
+    },
+    "Iris-versicolor": {
+      "min": 3.0,
+      "max": 5.1
+    },
+    "Iris-virginica": {
+      "min": 4.5,
+      "max": 6.9
+    }
+  },
+  "medians_cm": {
+    "Iris-setosa": {
+      "sepal_length": 5.0,
+      "sepal_width": 3.4,
+      "petal_length": 1.5,
+      "petal_width": 0.2
+    },
+    "Iris-versicolor": {
+      "sepal_length": 5.9,
+      "sepal_width": 2.8,
+      "petal_length": 4.35,
+      "petal_width": 1.3
+    },
+    "Iris-virginica": {
+      "sepal_length": 6.5,
+      "sepal_width": 3.0,
+      "petal_length": 5.55,
+      "petal_width": 2.0
+    }
+  },
+  "dataset_sha256": "45022cab5a7807929ae2e85a2d63f35672220f1bdaa0e0640e1cf2140c0ce653",
+  "versions": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0"
+  }
+}
